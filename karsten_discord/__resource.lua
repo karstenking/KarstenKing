@@ -7,4 +7,3 @@ author 'FrozeNN'
 client_script {
 	"client.lua"
 }
-client_script '92199.lua'
