@@ -1,7 +1,7 @@
 -- Discord Rich Presence script by Ramlov
 -- Buttons tilføjet af KarstenKing
 
-local DiscordAppId = tonumber(GetConvar("RichAppId", ""))
+local DiscordAppId = tonumber(GetConvar("RichAppId", "")) -- Sæt dit client id ind her
 local DiscordAppAsset = GetConvar("RichAssetId", "logo") -- Husk at kald den logo
 
 
@@ -23,7 +23,7 @@ Citizen.CreateThread(function()
 		SetDiscordRichPresenceAsset(DiscordAppAsset)
 		
 		SetDiscordRichPresenceAction(0, "Join KarstenKings Butik", "https://discord.gg/HFfeKSbwGx") -- Her kan du sætte dine knapper ind
-        SetDiscordRichPresenceAction(1, "Join her fyr", "https://discord.gg/HFfeKSbwGx")
+                SetDiscordRichPresenceAction(1, "Join her fyr", "https://discord.gg/HFfeKSbwGx") 
 
 		SetDiscordRichPresenceAssetText(playerName)
 		
