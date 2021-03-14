@@ -23,7 +23,7 @@ Citizen.CreateThread(function()
 		SetDiscordRichPresenceAsset(DiscordAppAsset)
 		
 		SetDiscordRichPresenceAction(0, "Join KarstenKings Butik", "https://discord.gg/HFfeKSbwGx") -- Her kan du sætte dine knapper ind
-                SetDiscordRichPresenceAction(1, "Join her fyr", "https://discord.gg/HFfeKSbwGx") 
+                SetDiscordRichPresenceAction(1, "Join her fyr", "fivem://connect/Dinserversip:30120") -- Skriv din servers ip ind så man kan connect til den :D
 
 		SetDiscordRichPresenceAssetText(playerName)
 		
